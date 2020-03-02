@@ -4,7 +4,7 @@ public class SpacedLogger implements Logger{
 
     @Override
     public void Log(String myString) {
-        System.out.println("\n" + addSpaces(myString));
+        System.out.println("\n\n" + addSpaces(myString));
 
     }
 
